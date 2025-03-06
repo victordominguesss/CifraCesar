@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cesar"
+version = "0.1.0"
+description = "Implementação da cifra de cesar em python"
+authors = ["Victor Domingues <victordominguesince01@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "applicationCesar", from = "." }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
